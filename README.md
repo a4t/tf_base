@@ -8,8 +8,7 @@ git clone and rename and delete .git
 
 ```
 $ YOUR_REPOSITORY_NAME=[your repository name]
-$ git clone https://github.com/a4t/tf_base.git
-$ mv tf_base ${YOUR_REPOSITORY_NAME}
+$ git clone https://github.com/a4t/tf_base.git ${YOUR_REPOSITORY_NAME}
 $ cd ${YOUR_REPOSITORY_NAME}
 $ rm -rf .git
 ```
